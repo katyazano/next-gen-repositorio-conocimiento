@@ -1,0 +1,16 @@
+# Secretos: nunca se suben al repositorio
+.env
+*.pem
+*.key
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Editor / sistema
+.vscode/
+.idea/
+.DS_Store
